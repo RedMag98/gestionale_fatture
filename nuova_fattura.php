@@ -41,7 +41,7 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST') {
 ?>
 
 <div style="display: flex; justify-content: center; align-items: center; min-height: 70vh; margin-top: 80px;">
-    <!-- Aggiungi margin-top per separare l'header -->
+   
     <form method="post" style="background: white; padding: 30px; border-radius: 10px; box-shadow: 0 5px 15px rgba(0,0,0,0.1); width: 400px; text-align: center;">
         <h2 style="margin-bottom:25px;">NUOVA FATTURA</h2>
 

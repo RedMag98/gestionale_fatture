@@ -20,7 +20,7 @@
         footer {
             margin-top: auto;
         }
-        /* HEADER */
+       
         header {
             background-color: #007BFF;
             color: white;
@@ -39,7 +39,7 @@
         }
 
 
-        /* Logout button style */
+        
         nav a.logout {
             background-color: white;
             color: #007BFF;
@@ -55,7 +55,7 @@
             color: white;
         }
 
-        /* BOTTONI */
+        
         a.button {
             display: inline-block;
             padding: 10px 20px;
@@ -78,7 +78,7 @@
         a.clienti { background-color: #007BFF; }
         a.clienti:hover { background-color: #0056b3; }
 
-        /* HOME SFONDO LOCALE */
+        
         .home-bg {
             background-image: url('img/home-bg.jpg');
             background-size: cover;

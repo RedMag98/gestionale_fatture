@@ -13,7 +13,7 @@
             background-color: #f9f9f9;
         }
 
-        /* HEADER */
+      
         header {
             background-color: #007BFF;
             color: white;
@@ -31,7 +31,7 @@
             flex: 1;
         }
 
-        /* MENU HAMBURGER ICON */
+       
         .hamburger-icon {
             display: flex;
             flex-direction: column;
@@ -49,66 +49,66 @@
             border-radius: 5px;
         }
 
-        /* Menu a tendina */
+       
         .menu-hamburger {
-            display: none; /* Nascondi il menu inizialmente */
+            display: none; 
             flex-direction: column;
             align-items: flex-start;
             position: absolute;
             top: 60px;
             left: 0;
-            background-color: rgba(0,0,0,0); /* Trasparente */
+            background-color: rgba(0,0,0,0); 
             padding: 10px;
             width: 100%;
             z-index: 999;
         }
 
-        /* Animazione di comparsa */
+        
         .menu-hamburger.show {
-            display: flex; /* Mostra il menu quando la classe "show" è attiva */
+            display: flex; 
             animation: slideIn 0.5s ease-in-out forwards;
         }
 
-        /* Aggiungi animazione per le voci */
+      
         .menu-hamburger a {
             margin: 5px 0;
             color: white;
             text-decoration: none;
             font-weight: bold;
-            opacity: 0; /* Inizialmente invisibile */
+            opacity: 0; 
             animation: fadeIn 0.5s ease-out forwards;
         }
 
         .menu-hamburger a:nth-child(1) {
-            animation-delay: 0.2s; /* Ritardo per la prima voce */
+            animation-delay: 0.2s; 
         }
 
         .menu-hamburger a:nth-child(2) {
-            animation-delay: 0.4s; /* Ritardo per la seconda voce */
+            animation-delay: 0.4s; 
         }
 
         .menu-hamburger a:nth-child(3) {
-            animation-delay: 0.6s; /* Ritardo per la terza voce */
+            animation-delay: 0.6s; 
         }
 
-        /* Animazioni */
+       
         @keyframes fadeIn {
             to {
-                opacity: 1; /* Diventa visibile */
+                opacity: 1; 
                 transform: translateX(0);
             }
         }
 
         @keyframes slideIn {
             from {
-                transform: translateY(-20px); /* Inizialmente fuori dalla vista */
+                transform: translateY(-20px); 
             }
             to {
-                transform: translateY(0); /* Viene spostato alla posizione originale */
+                transform: translateY(0); 
             }
         }
 
-        /* Logout button style */
+        
         nav a.logout {
             background-color: white;
             color: #007BFF;
@@ -124,7 +124,7 @@
             color: white;
         }
 
-        /* BOTTONI */
+       
         a.button {
             display: inline-block;
             padding: 10px 20px;
@@ -147,7 +147,7 @@
         a.clienti { background-color: #007BFF; }
         a.clienti:hover { background-color: #0056b3; }
 
-        /* HOME SFONDO LOCALE */
+       
         .home-bg {
             background-image: url('img/home-bg.jpg');
             background-size: cover;
@@ -176,9 +176,9 @@
             margin: 10px 5px;
         }
 
-        /* RESPONSIVE */
+        
         @media(max-width:768px) {
-            /* Mostra il menu a tendina su mobile */
+            
             .menu-hamburger.show {
                 display: flex;
             }
@@ -199,7 +199,7 @@
     </nav>
 </header>
 
-<!-- Menu a tendina per dispositivi mobili e desktop -->
+
 <?php if(basename($_SERVER['PHP_SELF']) == 'index.php'): ?>
     <div class="menu-hamburger" id="menu">
         <a href="nuova_fattura.php" class="button new-fattura">➕ Nuova Fattura</a>
@@ -209,10 +209,10 @@
 <?php endif; ?>
 
 <script>
-    // Funzione per mostrare/nascondere il menu a tendina
+    
     function toggleMenu() {
         var menu = document.getElementById("menu");
-        menu.classList.toggle("show"); // Aggiunge o rimuove la classe "show"
+        menu.classList.toggle("show"); 
     }
 </script>
 
