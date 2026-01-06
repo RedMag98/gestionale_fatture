@@ -1,6 +1,7 @@
 <?php
 include "auth.php";
 include "connessione.php";
+include "header2.php";
 
 $id = $_GET['id'];
 

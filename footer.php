@@ -14,7 +14,6 @@ footer {
     color: #333;
 }
 
-
 html, body {
     height: 100%;
 }
@@ -28,3 +27,8 @@ main {
     flex: 1; 
 }
 </style>
+
+<?php
+// 🔹 ASSISTENTE VIRTUALE
+include "chat_assistente.php";
+?>
