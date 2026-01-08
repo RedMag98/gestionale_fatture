@@ -121,3 +121,7 @@ footer {
     margin-top:20px;
 }
 </style>
+
+<script src="js/theme.js"></script>
+<link rel="stylesheet" href="css/themes.css">
+

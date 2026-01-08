@@ -180,3 +180,7 @@ if ($_POST) {
 
 </body>
 </html>
+
+<script src="js/theme.js"></script>
+<link rel="stylesheet" href="css/themes.css">
+

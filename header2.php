@@ -127,3 +127,5 @@
 
 </body>
 </html>
+
+<script src="theme.js"></script>

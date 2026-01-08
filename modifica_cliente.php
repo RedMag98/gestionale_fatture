@@ -105,3 +105,7 @@ p {
     font-size: 16px;
 }
 </style>
+
+<script src="js/theme.js"></script>
+<link rel="stylesheet" href="css/themes.css">
+

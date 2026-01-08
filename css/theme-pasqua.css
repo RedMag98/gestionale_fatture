@@ -1,0 +1,20 @@
+body {
+    background-color: #fff0f5;
+    color: #333;
+}
+
+header {
+    background-color: #ffb6c1;
+    color: black;
+}
+
+.home-bg {
+    background-image: url('../img/home-bg.jpg'); 
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.home-content {
+    background-color: rgba(255, 255, 255, 0.85);
+}

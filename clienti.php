@@ -135,3 +135,5 @@ $result = $conn->query("SELECT * FROM clienti ORDER BY nome ASC");
 
 </body>
 </html>
+<script src="js/theme.js"></script>
+<link rel="stylesheet" href="css/themes.css">

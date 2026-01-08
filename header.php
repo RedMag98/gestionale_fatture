@@ -10,7 +10,7 @@
             margin: 0;
             padding: 0;
             min-height: 100%;
-            background-color: #f9f9f9;
+            background-color: #030303ff;
         }
 
       

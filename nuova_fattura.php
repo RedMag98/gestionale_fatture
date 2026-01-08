@@ -159,3 +159,7 @@ setTimeout(function() {
     }
 }, 4000);
 </script>
+
+<link rel="stylesheet" href="css/themes.css">
+<script src="js/theme.js"></script>
+
